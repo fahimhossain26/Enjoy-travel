@@ -1,0 +1,76 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+   
+}
+/*  Shahred style */
+.container{
+  max-width: 1050px;
+  
+   padding: 50px 120px;
+
+}
+.text-orange{
+    color: orange;
+}
+
+.h1-text{
+    color: #131318;
+  
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* main css  */
+
+.logo-site{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.nav-ber{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.menu-text  a{
+    padding-right: 20px;
+    text-decoration: none;
+
+    color:  #424247;
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-color {
+    color: orange;
+}
+
+
+
+/* .open-menu , .close-menu{
+    position: absolute;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+} */
+ 
+
+    
+      
+    
