@@ -164,8 +164,183 @@ line-height: 26px; /* 162.5% */
     max-width: 100%;
     height: 500px;
 }
+/* Choose Your Destination */
 
 
+.destination h1{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 600px;
+padding: 20px 200px;
+
+}
+.gallery{
+    gap: 10px;
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    /* grid-auto-rows: 120px; */
+}
+
+.box{
+    background-size: cover;
+    background-position: top;
+    
+
+    color: #FFF;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+  
+
+text-align: center;
+
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.fast-2img{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+#box1 ,#box2{
+  
+    width: 520px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.secound-3img{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+
+}
+
+#box3{
+    width: 300px;
+    height: 286px;
+    border-radius: 8px;
+}
+#box4{
+    width: 450px;
+    height: 286px;
+    border-radius: 8px;
+}
+#box5{
+    width: 274px;
+height: 286px;
+border-radius: 8px;
+}
+.last-2img{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+#box6{
+    width: 450px;
+height: 300px;
+border-radius: 8px;
+}
+#box7{
+    width: 600px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+/* wht we chose us  */
+
+
+
+.chose-us h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.chose-us-p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 600px;
+    padding: 20px 200px;
+}
+
+.card{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.fast-card{
+    padding: 20px 50px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(83, 68, 51, 0.05);
+}
+
+.secound-card{
+    padding: 20px 50px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+}
+.last-card{
+   
+    padding: 20px 50px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+
+background: rgba(233, 68, 68, 0.05);
+}
+.last-container{
+    padding: 0 200px;
+}
+
+
+.img1, .img2, .img3 {
+
+    width: 50px;
+height: 50px;
+padding-bottom: 25px;
+}
+
+.card-h1{
+    padding-bottom: 15px;
+}
  
 
     
