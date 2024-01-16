@@ -6,6 +6,10 @@
      align-items: center;
      padding: 0px 0px;
     }
+    .logo{
+        width: 28.724px;
+height: 33.516px;
+    }
     .menu-text{display: flex;
     align-items: center;
     padding: 10px ;
@@ -237,16 +241,78 @@ margin:auto;
 }
 .vedio-part{
     margin-top: 20px;
+    margin:auto;
+    margin-top: 20px;
 }
 .vedio-part iframe{
-    width: 400px;
+    width: 350px;
 height: 200px;
 margin-left: 25px;
+/* margin:auto; */
 
 }
 .perfect-text button{
     margin-left: 20px;
 }
+/* newsleter section */
+.newsleter-section{
+    flex-direction: column;
+    /* margin: auto; */
+}
+/* .newsleter-section img{
+    margin: auto;
+} */
+
+.newsleter{
+    width: 335px;
+height: 353px;
+margin: auto;
+margin-top: 20px;
+}
+.newsleter h3{
+    width: 270px;
+}
+.newsleter p{
+    width: 270px;
+}
+.input-news input{
+    width: 288px;
+height: 52px;
+}
+ .img-section-news , img{
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
 
 
+
+}
+.img-section-news{
+    position: relative;
+}
+.travel-btn{
+    position: absolute;
+    left: 100px;
+    /* rotate: -60deg; */
+    transform: rotate(-30.628deg);
+   
+    top: 220px;
+    z-index: 1;
+}
+footer{
+   
+   
+    margin-top: 20px;
+}
+.footer-text{
+    margin-top: 20px;
+  padding: 20px 100px;
+}
+.footer-pra{
+    width: 287px;
+    padding: 10px 30px;
+}
+
+}
 
