@@ -201,5 +201,52 @@ margin:auto;
     margin: 20px 80px;
    }
 
-} 
+   /* perfect place */
+   .perfet-place{
+   
+    flex-direction: column;
+   }
+.perfect-text h2{ 
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+}
+.perfect-text p{
+    margin-top: 20px;
+    width: 250px;
+    padding: 0;
+    justify-content: center;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+.perfect-text li{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    margin-left: 20px;
+    
+}
+.vedio-part{
+    margin-top: 20px;
+}
+.vedio-part iframe{
+    width: 400px;
+height: 200px;
+margin-left: 25px;
+
+}
+.perfect-text button{
+    margin-left: 20px;
+}
+
+
 
