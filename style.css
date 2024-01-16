@@ -37,7 +37,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-border-radius: 8px;
+border-radius: 8px;border: none;
 
 padding: 15px 30px;
 }
@@ -130,14 +130,42 @@ padding-top: 100px;
     color: #FFF;
 }
 
+/* our popular tour sections  secound part */
+.secound-part{
+    display: flex;
+}
+.text-part h1{
+    color: #131318;
+text-align: center;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text-part p{
+    color: rgba(19, 19, 24, 0.70);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 577px;
+padding : 24px 20px;
+}
+.text-part li{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.img-part img{
+    max-width: 100%;
+    height: 500px;
+}
 
 
-/* .open-menu , .close-menu{
-    position: absolute;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: none;
-} */
  
 
     
