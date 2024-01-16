@@ -131,6 +131,14 @@ padding-left: 100px;
 
    /* why chose us */
 
+   .discount-txt p{
+    margin-top: 20px;
+    width: 250px;
+    padding: 0;
+    justify-content: center;
+padding-left: 100px;
+   }
+
    .chose-us h1{
     color: #131318;
 
@@ -176,6 +184,21 @@ margin:auto;
     padding: 0;
     padding-top: 300px;
     
+   }
+   /* deals and discount  */
+   .discount-banner, .discount-banner2 {
+    width: 335px;
+height: 500px;
+margin:auto;
+   }
+   .banner1 , .banner2, .banner3{
+    width: 303px;
+    height: 297px;
+    margin-left: 15px;
+    
+   }
+   .Packages-btn{
+    margin: 20px 80px;
    }
 
 } 
